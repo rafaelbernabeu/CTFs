@@ -14,8 +14,3 @@ for s in secret:
     flag += chr(s ^ rc.predict_getrandbits(8))
 
 print(flag)
-
-
-
-
-
