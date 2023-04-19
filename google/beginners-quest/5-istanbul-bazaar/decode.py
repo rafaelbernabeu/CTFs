@@ -1,5 +1,4 @@
 from randcrack import RandCrack
-import struct
 
 rc = RandCrack()
 
