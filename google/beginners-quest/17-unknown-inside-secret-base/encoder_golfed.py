@@ -1,10 +1,11 @@
-import struct as s
+from struct import *
+r=range
+h=bytes
 def t(a, b):
-  return b''.join([bytes(a, "utf-8")[:4],s.pack(">I", len(b)),b])
-def y(d):
-  n=[x for x in range(2,7919)if not[t for t in range(2,x)if not x%t]]
-  return bytes([(d[i] ^ (n[i] & 0xff))for i in range(len(d))])
+  return a+pack(">I",len(b))+b
 def encode(s):
-  a=bytes([x for x in range(65, 91)])
-  return y(b''.join([t("BEGN", a.lower()),t("DATA", s),t("END.",a)]))
+  a=h(r(65, 91))
+  m=t(b"BEGN",a.lower())+t(b"DATA",s)+t(b"END.",a)
+  n=[g&255 for g in r(2, 7919)if not[k for k in r(2, g)if g%k<1]]
+  return h(p^q for p,q in zip(m,n))
 #END
