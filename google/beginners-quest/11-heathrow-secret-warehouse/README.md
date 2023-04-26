@@ -5,6 +5,6 @@ Wow, it’s a crowded day at Heathrow, lots of suits that bump into each other a
 Challenge: pwn-notebook (pwn)
 Please help me restore my deleted note.
 
-https://capturetheflag.withgoogle.com/pwn-notebook.2021.ctfcompetition.com%201337
+pwn-notebook.2021.ctfcompetition.com 1337
 
 https://storage.googleapis.com/gctf-2021-attachments-project/6c96641ce301c1cce0638c706ce6f08e03dd07a7206f13502814948b87956797cbfab4e5319df21bc2bed99834bd7aede661f86a8a0d5c7148c3158d566afc68
